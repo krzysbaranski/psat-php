@@ -3,6 +3,7 @@
 /vendor
 composer.phar
 composer.lock
+package-lock.json
 .env.local.php
 .env.php
 .DS_Store
