@@ -1,3 +1,36 @@
+# PSAT PHP Project
+
+> ⚠️ **UWAGA / WARNING**
+>
+> Ten projekt używa przestarzałych bibliotek i frameworków wymagających aktualizacji przed użyciem w produkcji.
+>
+> This project uses outdated libraries and frameworks that require updates before production use.
+
+## Status projektu / Project Status
+
+### Przestarzałe zależności / Outdated Dependencies
+
+| Dependency | Current Version | Issue |
+|------------|-----------------|-------|
+| Laravel | 5.2.* | EOL since Dec 2016, no security updates |
+| PHP | >=5.5.9 | PHP 5.5 EOL since July 2016 |
+| PHPUnit | ~4.0 | EOL since Feb 2017, known vulnerabilities |
+| Guzzle | ~6.0 | Should update to latest stable |
+| fzaninotto/faker | ~1.4 | Package abandoned, use fakerphp/faker |
+| gulp | ^3.8.8 | Outdated, gulp 4+ is current |
+| laravel-elixir | ^4.0.0 | Deprecated, use Laravel Mix |
+| bootstrap-sass | ^3.4.3 | XSS vulnerability affects all Bootstrap 3.x (CVE-2024-6484), consider upgrading to Bootstrap 5 |
+
+### API Fixer.io
+
+API Fixer.io zostało zaktualizowane w tym repozytorium - wymaga teraz klucza API w zmiennej środowiskowej `FIXER_API_KEY`.
+Zarejestruj się na https://fixer.io/ aby uzyskać klucz API.
+
+The Fixer.io API integration has been updated in this repository - it now requires an API key in the `FIXER_API_KEY` environment variable.
+Register at https://fixer.io/ to get an API key.
+
+---
+
 # Instrukcje po ściągnięciu repozytorium
 
 ## Jeżeli pracujemy na Windowsie potrzebujemy wsparcie do GIT'a:
