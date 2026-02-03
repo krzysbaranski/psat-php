@@ -4,7 +4,9 @@
 composer.phar
 composer.lock
 package-lock.json
+.env
 .env.local.php
 .env.php
 .DS_Store
 Thumbs.db
+/node_modules
